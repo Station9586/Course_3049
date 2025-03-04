@@ -1,0 +1,59 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+__pycache__/*
+*.pyc
+
+# Build specific files
+build*/
+_build*/
+install/
+vs-build/
+
+# OS and IDE specific files
+.DS_Store
+.vscode
+.atom
+.fortls
+.devcontainer
+.idea
+
+# backup files
+*.asv
+
+# LaTeX compiling files
+*.aux
+*.nlo
+*.log
+
+#Simulink cache files
+varcache
+*.slxc
+
+# Our Data & Data PreProcessing
+*.csv
+*.bts
+Real_tmp.txt

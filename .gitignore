@@ -57,3 +57,17 @@ varcache
 *.csv
 *.bts
 Real_tmp.txt
+
+*
+
+!*.cpp
+!*.h
+!*.hpp
+!*.c
+!*.cc
+!*.py
+!*.sh
+!Makefile
+
+!img/
+!img/**.png

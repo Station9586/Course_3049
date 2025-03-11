@@ -58,7 +58,6 @@ varcache
 *.bts
 Real_tmp.txt
 
-*
 
 !*.cpp
 !*.h
@@ -68,6 +67,3 @@ Real_tmp.txt
 !*.py
 !*.sh
 !Makefile
-
-!img/
-!img/**.png

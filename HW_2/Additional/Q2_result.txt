@@ -1,0 +1,56 @@
+Original Text: Never gonna give you up, never gonna let you down, never gonna run around and desert you.
+Original Size: 712 bits (approx, assuming 8-bit ASCII)
+
+Character Frequencies:
+'.': 1
+'s': 1
+'w': 1
+'d': 4
+'t': 2
+'l': 1
+',': 2
+'p': 1
+'u': 6
+'i': 1
+'a': 5
+'y': 3
+'n': 12
+'N': 1
+'e': 10
+' ': 16
+'g': 4
+'r': 6
+'v': 4
+'o': 8
+
+Huffman Codes:
+' ': 111
+',': 00011
+'.': 1001010
+'N': 100100
+'a': 0101
+'d': 0100
+'e': 011
+'g': 0011
+'i': 000001
+'l': 000011
+'n': 101
+'o': 1101
+'p': 000000
+'r': 1100
+'s': 1001011
+'t': 00010
+'u': 1000
+'v': 0010
+'w': 000010
+'y': 10011
+
+Encoded Text: 10010001100100111100111001111011011010101111001100000100100111111001111011000111100000000000011111101011001001111001110011110110110101011110000110110001011110011110110001110100110100001010100011111101011001001111001110011110110110101011111100100010111101011100110110001010100111010110101001110100011100101101111000001011110011110110001001010
+Encoded Size: 341 bits
+Compression Ratio (encoded/original bits): 0.478933
+
+Decoded Text: Never gonna give you up, never gonna let you down, never gonna run around and desert you.
+
+Verification Successful: Original and Decoded texts match!
+
+Huffman tree deleted.

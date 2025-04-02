@@ -132,7 +132,7 @@ int main (void) {
         } else {
             cout << "Invalid choice. Please enter 1, 2, or 3." << "\n";
         }
-         cout << "--------------------" << "\n";
+        cout << "--------------------" << "\n";
     }
 
     return 0;

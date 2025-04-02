@@ -4,7 +4,6 @@
 using namespace cv;
 using namespace std;
 
-// --- Helper Function to Ensure Dimensions are Divisible by 2^N ---
 // Finds the largest dimension divisible by 2^levels below the original size
 int adjust_dim(int dim, int levels) {
     int factor = 1 << levels; // 2^levels
@@ -102,7 +101,6 @@ void display_subband(const Mat& subband, const string& window_name, bool normali
 
 int main (void) {
     // --- 1. Load Image ---
-    // 請將 "your_image.png" 替換為你的灰階影像路徑
     string image_path = "../img/image.png";
     Mat img = imread(image_path, IMREAD_GRAYSCALE);
 
@@ -196,18 +194,15 @@ int main (void) {
              current_row_offset = sub_rows;
              hh_norm.copyTo(dwt_display(Rect(current_col_offset, current_row_offset, sub_cols, sub_rows)));
         }
-
-         // The 'offset' for the next lower level is effectively determined by the subband size of the current level
-         // This simplified logic places them correctly in the standard DWT visualization layout.
     }
 
 
     // --- 5. Display Final Results ---
     imshow("Original Resized Image", resized_img);
     imshow("Composite Haar DWT (3 Levels)", dwt_display);
-    imwrite("Q1_Composite_DWT.png", dwt_display); // Save the composite image
-    waitKey(0); // Wait indefinitely until a key is pressed
-    destroyAllWindows(); // Close all OpenCV windows
+    imwrite("Q1_Composite_DWT.png", dwt_display);
+    waitKey(0);
+    destroyAllWindows();
 
     return 0;
 }

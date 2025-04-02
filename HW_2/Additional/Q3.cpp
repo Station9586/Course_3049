@@ -51,7 +51,7 @@ int main() {
     Mat secretImage = imread(secretImagePath, IMREAD_GRAYSCALE);
 
     // --- 2. Ensure Image is Binary (Black and White) ---
-    // Use thresholding. Adjust threshold value if needed (128 is common midpoint)
+    // Use thresholding.
     Mat binarySecretImage;
     threshold(secretImage, binarySecretImage, 128, 255, THRESH_BINARY);
 

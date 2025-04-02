@@ -165,9 +165,7 @@ void deleteTree (HuffmanNode* node) {
 }
 
 
-// --- Main Function (Demo) ---
 int main (void) {
-    // Example input text
     string text = "Never gonna give you up, never gonna let you down, never gonna run around and desert you.";
 
     cout << "Original Text: " << text << '\n';
@@ -208,11 +206,11 @@ int main (void) {
 
     // Calculate compression ratio (simple bit comparison)
     if (!text.empty()) {
-         double original_bits = text.length() * 8.0;
-         double encoded_bits = encodedText.length();
-         if (original_bits > 0) {
-              cout << "Compression Ratio (encoded/original bits): " << (encoded_bits / original_bits) << '\n';
-         }
+        double original_bits = text.length() * 8.0;
+        double encoded_bits = encodedText.length();
+        if (original_bits > 0) {
+            cout << "Compression Ratio (encoded/original bits): " << (encoded_bits / original_bits) << '\n';
+        }
     }
 
 

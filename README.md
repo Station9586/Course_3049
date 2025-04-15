@@ -54,3 +54,14 @@ Q2: 試設Huffman 壓縮法與解壓縮程式並用例子Demo。
 Q3: 試撰寫一是視覺密碼學加密程式與demo。
 
 Q4: 試撰寫一Morse電碼轉換器程式。
+
+---
+
+### MidTerm
+1. 請將機密訊息"0010111011110001"(或使用16x16 黑白影像) 使用LSB(s)最不重要位元影像偽裝技術，撰寫程式實現機密訊息的嵌入和取出程式。(PS: 註以藏入 (a) LSB 1 bit (b) LSB 2 bits (c) LSB 3bits 其中 Cover 影像為灰階512x512 (自行選取))
+PS:必須 呈現 Cover image , Steganoimage和程式Source code並算出PSNR值
+
+2. 請將機密訊息"00101110" (或使用16x16 黑白影像)使用DCT離散COSINE轉換影像偽裝技術，撰寫程式實現機密訊息的嵌入和取出程式。(PS:其中 Cover 影像為灰階512x512 (自行選取))
+PS:必須 呈現 Cover image , Steganoimage和程式Source code
+
+3. 請使用LBG 演算法 訓練128x128VQ codebook 撰寫程式(PS:必須 呈現 訓練 Images ,  Codebook 和程式Source code)

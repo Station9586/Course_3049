@@ -102,7 +102,6 @@
 
 * Naor, M., & Shamir, A. (1995). Visual cryptography. In *Advances in Cryptology EUROCRYPT'94* (pp. 1-12). Springer Berlin Heidelberg.
 * Floyd, R. W., & Steinberg, L. (1976). An adaptive algorithm for spatial grey scale. *SID 76 DIGEST, 17*(1), 36-37.
-* (其他您在專案中參考的相關論文或書籍)
 
 ## 6. 程式碼結構與使用說明
 
